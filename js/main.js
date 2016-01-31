@@ -1,0 +1,25 @@
+$(function() {
+	var BaseURL = 'http://www.'+'b'+'i'+'g'+'g'+'b'+'y'+'.com/images/ewards/';
+	var TimeNow = new moment();
+	var t1 = TimeNow;
+	$('#col1').append('<iframe src="'+BaseURL+TimeNow.format('MMMD')+'.html"></iframe>');
+	$('#col2').append('<iframe src="'+BaseURL+TimeNow.add(1, 'day').format('MMMD')+'.html"></iframe>');
+	$('#col3').append('<iframe src="'+BaseURL+TimeNow.add(1, 'day').format('MMMD')+'.html"></iframe>');
+	$('#col4').append('<iframe src="'+BaseURL+TimeNow.add(1, 'day').format('MMMD')+'.html"></iframe>');
+	$('#col5').append('<iframe src="'+BaseURL+TimeNow.add(1, 'day').format('MMMD')+'.html"></iframe>');
+	$('#col6').append('<iframe src="'+BaseURL+TimeNow.add(1, 'day').format('MMMD')+'.html"></iframe>');
+	$('#col7').append('<iframe src="'+BaseURL+TimeNow.add(1, 'day').format('MMMD')+'.html"></iframe>');
+	$('#col8').append('<iframe src="'+BaseURL+TimeNow.add(1, 'day').format('MMMD')+'.html"></iframe>');
+	$('#col9').append('<iframe src="'+BaseURL+TimeNow.add(1, 'day').format('MMMD')+'.html"></iframe>');
+	$('#col10').append('<iframe src="'+BaseURL+TimeNow.add(1, 'day').format('MMMD')+'.html"></iframe>');
+	$('#col11').append('<iframe src="'+BaseURL+TimeNow.add(1, 'day').format('MMMD')+'.html"></iframe>');
+	$('#col12').append('<iframe src="'+BaseURL+TimeNow.add(1, 'day').format('MMMD')+'.html"></iframe>');
+	$('#col13').append('<iframe src="'+BaseURL+TimeNow.add(1, 'day').format('MMMD')+'.html"></iframe>');
+	$('#col14').append('<iframe src="'+BaseURL+TimeNow.add(1, 'day').format('MMMD')+'.html"></iframe>');
+	$('#col15').append('<iframe src="'+BaseURL+TimeNow.add(1, 'day').format('MMMD')+'.html"></iframe>');
+	$('#col16').append('<iframe src="'+BaseURL+TimeNow.add(1, 'day').format('MMMD')+'.html"></iframe>');
+	$('#col17').append('<iframe src="'+BaseURL+TimeNow.add(1, 'day').format('MMMD')+'.html"></iframe>');
+	$('#col18').append('<iframe src="'+BaseURL+TimeNow.add(1, 'day').format('MMMD')+'.html"></iframe>');
+	$('#col19').append('<iframe src="'+BaseURL+TimeNow.add(1, 'day').format('MMMD')+'.html"></iframe>');
+	$('#col20').append('<iframe src="'+BaseURL+TimeNow.add(1, 'day').format('MMMD')+'.html"></iframe>');
+});
